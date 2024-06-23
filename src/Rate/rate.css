@@ -1,0 +1,62 @@
+.card{
+    max-width: 400px;
+    height: 350px; 
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card_name,
+.card_limit,
+.card_info
+{
+    text-align: center;
+    flex: auto;
+}
+
+.card_info {
+    background-color: #eeeeee;
+}
+
+.card_limit{
+    background-color: white
+}
+.card_price{
+    color: #fcfbff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+ }
+
+ .card_price + span {
+    font-size: 15px;
+ }
+
+.card_name{
+    color: #fcfbff;
+    font-size: 25px;
+}
+
+
+    /* .blue {
+        background-color: #229cab;
+      }
+    
+    .green {
+        background-color: #1b8970;
+      }
+    
+    .colorRed {
+        background-color: #c4554e;
+      }
+    
+   .colorGreen {
+       background-color: #282f37;
+      }
+     */
+        
+
