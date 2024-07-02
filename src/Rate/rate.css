@@ -7,6 +7,9 @@
     flex-direction: column;
 }
 
+.cars {
+    height: 500px;
+}
 
 .card_name,
 .card_limit,
@@ -25,7 +28,7 @@
 }
 .card_price{
     color: #fcfbff;
-    height: 80px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,4 +62,7 @@
       }
      */
         
-
+/* 
+.change_size {
+ height: 400px;
+} */
